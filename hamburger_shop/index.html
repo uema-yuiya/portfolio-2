@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 検索結果出さないようにする -->
+<meta name="robots" content="noindex,nofollow">
+<title>yuiya-portfolio</title>
+<!--Google Fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<!--Font Awesome５-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!--css-->
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<!--jQuery--> 
+<script src="js/jquery-3.6.0.min.js"></script> 
+<script src="js/main.js"></script> 
+</head>
+
+<body>
+<div class="wrapper"> 
+  <!-- headerここから -->
+  <header>
+    <div class="container">
+      <div class="header_inner">
+        <div class="container-small">
+          <h1 class="header_logo"> <a href="https://yuiya-portfolio.com/">YUIYA PORTFOLIO</a> </h1>
+        </div>
+        <!--ナビ-->
+        <nav class="header_nav">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#work">WORKS</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#profile">PROFILE</a></li>
+          </ul>
+        </nav>
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamburger-menu">
+          <span class="hamburger-menu__line"></span>
+        </div>
+        <nav class="nav-sp">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#work">WORKS</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#profile">PROFILE</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- headerここまで --> 
+  <!-- mvここから -->
+  <div class="mv">
+    <div class="container">
+      <h2 class="mv_title">Portfolio</h2>
+    </div>
+  </div>
+  
+  <!-- mvここまで --> 
+  <!-- mainここから -->
+  <main class="content"> 
+    <!-- Wrokここから -->
+    <section class="work_section">
+      <h2 id="work" class="title">WORKS</h2>
+      <div class="container">
+        <div class="work_list">
+          <article>
+            <a class="wrok_item" href="dental/index.html">
+              <div class="thumbnail" style="background-image:url(images/600X450.jpg)">
+              </div>
+              <div class="text">
+                <h3>10文字分はいります。</h3>
+                <p>10文字分はいります。10文字分はいります。</p>
+              </div>
+            </a>
+          </article>
+          <article>
+            <a class="wrok_item" href="sports_gym/top.html">
+              <div class="thumbnail" style="background-image:url(images/600X450.jpg)">
+              </div>
+              <div class="text">
+                <h3>10文字分はいります。</h3>
+                <p>10文字分はいります。10文字分はいります。</p>
+              </div>
+            </a>
+          </article>         
+          <article>
+            <a class="wrok_item" href="hamburger_shop/top.html">
+              <div class="thumbnail" style="background-image:url(images/600X450.jpg)">
+              </div>
+              <div class="text">
+                <h3>10文字分はいります。</h3>
+                <p>10文字分はいります。10文字分はいります。</p>
+              </div>
+            </a>
+          </article>   
+        </div>
+      </div>
+    </section>
+    <!-- Workここまで --> 
+    <!-- Skillここから -->
+    <section class="skill_section">
+      <h2 id="skill" class="title">Skill</h2>
+      <div class="container">
+        <div class="skill_list">
+          <div class="skill_item">
+            <img src="images/htmlcss.png" alt="">
+            <div class="text">
+              <h3>HTML/CSS</h3>
+              <p>レスポンシブデザインの記述が可能です。エディタはDream weaverとvs codeを使用しています。</p>
+            </div>
+          </div>
+
+          <div class="skill_item">
+            <img src="images/js.png" alt="">
+            <div class="text">
+              <h3>JavaScript</h3>
+              <p>10文字分はいります。10文字分はいります。10文字分はいります。</p>
+            </div>
+          </div>
+          
+          <div class="skill_item">
+            <img src="images/ps.png" alt="">
+            <div class="text">
+              <h3>Photoshop</h3>
+              <p>10文字分はいります。10文字分はいります。10文字分はいります。</p>
+            </div>
+          </div>
+          
+
+          <div class="skill_item">
+            <img src="images/ai.png" alt="">
+            <div class="text">
+              <h3>Illsutrator</h3>
+              <p>10文字分はいります。10文字分はいります。10文字分はいります。</p>
+            </div>
+          </div>
+          
+        </div>   
+      </div>
+    </section>
+    <!-- Skillここまで --> 
+    <!-- PROFILEここから -->
+    <section class="profile_secton">
+      <div class="container">
+        <h2 id="profile" class="title">PROFILE</h2>
+        <div class="profile_inner">
+          <img src="images/300X300.jpg" alt="">
+          <div class="profile_text">
+            <p>10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。<br>
+            10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。10文字分入ります。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROFILEここまで -->
+  </main>
+  <!-- mainここまで -->
+  <!-- TOPへ戻るボタン -->
+  <div id="page_top"><a href="#"></a></div>
+  <!-- footerここから -->
+  <footer class="footer">
+    <nav class="footerNav">
+      <ul class="footerNav-list">
+        <li class=""><a href="#">HOME</a></li>
+        <li class=""><a href="#work">WORKS</a></li>
+        <li class=""><a href="#skill">SKILL</a></li>
+        <li class=""><a href="#profile">POFLIE</a></li>
+      </ul>
+    </nav>
+    <div class="copyright">©YUIYA PORTFOLIO</div>
+  </footer>
+  <!-- footerここまで --> 
+</div>
+</body>
+</html>
